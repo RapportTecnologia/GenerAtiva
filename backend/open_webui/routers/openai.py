@@ -218,7 +218,7 @@ async def speech(request: Request, user=Depends(get_verified_user)):
                     **(
                         {
                             "HTTP-Referer": "https://openwebui.com/",
-                            "X-Title": "Open WebUI",
+                            "X-Title": "Rapport GenerAtiva",
                         }
                         if "openrouter.ai" in url
                         else {}
@@ -264,7 +264,7 @@ async def speech(request: Request, user=Depends(get_verified_user)):
 
             raise HTTPException(
                 status_code=r.status_code if r else 500,
-                detail=detail if detail else "Open WebUI: Server Connection Error",
+                detail=detail if detail else "Rapport GenerAtiva: Server Connection Error",
             )
 
     except ValueError:
@@ -535,7 +535,7 @@ async def get_models(
                 # ClientError covers all aiohttp requests issues
                 log.exception(f"Client error: {str(e)}")
                 raise HTTPException(
-                    status_code=500, detail="Open WebUI: Server Connection Error"
+                    status_code=500, detail="Rapport GenerAtiva: Server Connection Error"
                 )
             except Exception as e:
                 log.exception(f"Unexpected error: {e}")
@@ -799,7 +799,7 @@ async def generate_chat_completion(
         **(
             {
                 "HTTP-Referer": "https://openwebui.com/",
-                "X-Title": "Open WebUI",
+                "X-Title": "Rapport GenerAtiva",
             }
             if "openrouter.ai" in url
             else {}
