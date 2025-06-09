@@ -1,8 +1,10 @@
 [project]
 name = "open-webui"
-description = "Open WebUI"
+description = "Rapport Generativa"
 authors = [
-    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" }
+    { name = "Timothy Jaeryang Baek", email = "tim@openwebui.com" },
+    { name = "Carlos Delfino", email = "carlosdelfino@rapport.tec.br" },
+    { name = "João Vitor", email = "joaovitortolomelli@gmail.com" }
 ]
 license = { file = "LICENSE" }
 dependencies = [

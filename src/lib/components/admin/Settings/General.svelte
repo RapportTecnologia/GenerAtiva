@@ -184,7 +184,7 @@
 
 							<a
 								class="flex-shrink-0 text-xs font-medium underline"
-								href="https://docs.openwebui.com/"
+								href="https://rapport.tec.br/generativa/docs"
 								target="_blank"
 							>
 								{$i18n.t('Documentation')}

@@ -73,7 +73,7 @@
 
 		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://generativa.rapport.tec.br';
 
 		const tab = await window.open(`${url}/functions/create`, '_blank');
 
