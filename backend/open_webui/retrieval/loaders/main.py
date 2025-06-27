@@ -1,3 +1,5 @@
+import nltk
+nltk.download('punkt_tab')
 import requests
 import logging
 import ftfy
@@ -12,6 +14,7 @@ from langchain_community.document_loaders import (
     OutlookMessageLoader,
     PyPDFLoader,
     TextLoader,
+    UnstructuredPDFLoader,
     UnstructuredEPubLoader,
     UnstructuredExcelLoader,
     UnstructuredMarkdownLoader,
@@ -356,7 +359,8 @@ class Loader:
             )
         else:
             if file_ext == "pdf":
-                loader = PyPDFLoader(
+                #loader = PyPDFLoader(
+                loader = UnstructuredPDFLoader(
                     file_path, extract_images=self.kwargs.get("PDF_EXTRACT_IMAGES")
                 )
             elif file_ext == "csv":
