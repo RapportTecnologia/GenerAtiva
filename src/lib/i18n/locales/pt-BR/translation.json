@@ -906,7 +906,6 @@
 	"Low": "Baixo",
 	"LTR": "Esquerda para Direita",
 	"Made by Open WebUI Community": "Aperfeiçoado pela Rapport",
-	"Make password visible in the user interface": "",
 	"Make password visible in the user interface": "Tornar a senha visível na interface do usuário",
 	"Make sure to enclose them with": "Certifique-se de encerrá-los com",
 	"Make sure to export a workflow.json file as API format from ComfyUI.": "Certifique-se de exportar um arquivo workflow.json como o formato API do ComfyUI.",
