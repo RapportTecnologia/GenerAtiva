@@ -22,7 +22,7 @@ def search_firecrawl(
         response = requests.post(
             firecrawl_search_url,
             headers={
-                "User-Agent": "Rapport GenerAtiva (https://github.com/open-webui/open-webui) RAG Bot",
+                "User-Agent": "Rapport GenerAtiva (https://github.com/rapporttecnologia/rapport-generativa) RAG Bot",
                 "Authorization": f"Bearer {firecrawl_api_key}",
             },
             json={
