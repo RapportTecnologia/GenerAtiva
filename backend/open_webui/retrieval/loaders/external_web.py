@@ -32,7 +32,7 @@ class ExternalWebLoader(BaseLoader):
                 response = requests.post(
                     self.external_url,
                     headers={
-                        "User-Agent": "Rapport GenerAtiva (https://github.com/open-webui/open-webui) External Web Loader",
+                        "User-Agent": "Rapport GenerAtiva (https://github.com/rapporttecnologia/rapport-generativa) External Web Loader",
                         "Authorization": f"Bearer {self.external_api_key}",
                     },
                     json={
