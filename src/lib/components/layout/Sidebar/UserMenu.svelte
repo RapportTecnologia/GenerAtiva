@@ -173,7 +173,7 @@
 						on:click={() => {
 							show = false;
 						}}
-						href="https://github.com/rapport/rapport-generativa/releases"
+						href="https://github.com/rapporttecnologia/rapport-generativa/releases"
 					>
 						<Map className="size-5" />
 						<div class="flex items-center">{$i18n.t('Releases')}</div>
